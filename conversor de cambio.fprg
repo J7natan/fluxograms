@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="conversor de cambio"/>
+        <attribute name="authors" value="Aluno Tarde"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-11 02:00:56 "/>
+        <attribute name="created" value="QWx1bm8gVGFyZGU7QVJMQUIwMUlORjE3OzIwMjQtMDktMTE7IjAxOjQ2OjQwICI7MzAwNA=="/>
+        <attribute name="edited" value="QWx1bm8gVGFyZGU7QVJMQUIwMUlORjE3OzIwMjQtMDktMTE7IjAyOjAwOjU2ICI7MTszMTEw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="realbr, dolar" type="Real" array="False" size=""/>
+            <output expression="&quot;Valor em U$&quot;" newline="True"/>
+            <input variable="dolar"/>
+            <assign variable="realbr" expression="dolar*5.64"/>
+            <output expression="&quot;Equivalem a: R$&quot;&amp;realbr" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="valor do litro"/>
+        <attribute name="authors" value="Aluno Tarde"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-11 02:45:46 "/>
+        <attribute name="created" value="QWx1bm8gVGFyZGU7QVJMQUIwMUlORjE3OzIwMjQtMDktMTE7IjAyOjE1OjAxICI7Mjk5OA=="/>
+        <attribute name="edited" value="QWx1bm8gVGFyZGU7QVJMQUIwMUlORjE3OzIwMjQtMDktMTE7IjAyOjQ1OjQ2ICI7MTszMTE4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="vlitro, vpagar, litros" type="Real" array="False" size=""/>
+            <output expression="&quot;Valor desejado:&quot;" newline="True"/>
+            <input variable="vpagar"/>
+            <assign variable="vlitro" expression="5.89"/>
+            <assign variable="litros" expression="vpagar/vlitro"/>
+            <output expression="&quot;Valor a Pagar: R$&quot;&amp;vpagar" newline="True"/>
+            <output expression="&quot;Litros:&quot; &amp;litros" newline="True"/>
+            <output expression="&quot;Pre&#231;o por litro: R$&quot;&amp;vlitro" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

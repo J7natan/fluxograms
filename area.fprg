@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="area"/>
+        <attribute name="authors" value="Aluno Tarde"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-11 01:46:37 "/>
+        <attribute name="created" value="QWx1bm8gVGFyZGU7QVJMQUIwMUlORjE3OzIwMjQtMDktMTE7IjAxOjQxOjQyICI7MzAwMQ=="/>
+        <attribute name="edited" value="QWx1bm8gVGFyZGU7QVJMQUIwMUlORjE3OzIwMjQtMDktMTE7IjAxOjQ2OjM3ICI7MjszMTE5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="largura, comprimento, area" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite a largura:&quot;" newline="True"/>
+            <input variable="largura"/>
+            <output expression="&quot;Digite o comprimento:&quot;" newline="True"/>
+            <input variable="comprimento"/>
+            <assign variable="area" expression="largura*comprimento"/>
+            <output expression="&quot;&#193;rea total &#233;:&quot; &amp;area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

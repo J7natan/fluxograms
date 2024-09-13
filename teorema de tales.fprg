@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="teorema de tales"/>
+        <attribute name="authors" value="Aluno Tarde"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-11 03:27:01 "/>
+        <attribute name="created" value="QWx1bm8gVGFyZGU7QVJMQUIwMUlORjE3OzIwMjQtMDktMTE7IjAyOjQ1OjUyICI7MzAwNw=="/>
+        <attribute name="edited" value="QWx1bm8gVGFyZGU7QVJMQUIwMUlORjE3OzIwMjQtMDktMTE7IjAzOjI3OjAxICI7MTszMTEw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="spredio, apredio, spessoa, apessoa" type="Real" array="False" size=""/>
+            <output expression="&quot;Descreva a altura do objeto:&quot;" newline="True"/>
+            <input variable="apessoa"/>
+            <output expression="&quot;Descreva o comprimento da sombra do Objeto:&quot;" newline="True"/>
+            <input variable="spessoa"/>
+            <output expression="&quot;Descreva o comprimento da sombra do predio:&quot;" newline="True"/>
+            <input variable="spredio"/>
+            <assign variable="apredio" expression="apessoa/spessoa*spredio"/>
+            <output expression="&quot;A Altura do pr&#233;dio &#233;:&quot; &amp;apredio" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
